@@ -1,0 +1,24 @@
+@import "variables";
+// @import "fonts";
+
+@import "page/page.scss";
+
+@import "page/header/header.scss";
+@import "page/header/__navigation/header__navigation.scss";
+@import "page/header/__logo/header__logo.scss";
+@import "page/header/__navigation-link/header__navigation-link.scss";
+@import "page/header/__navigation-link/_active/header__navigation-link_active.scss";
+
+
+
+
+
+@import "page/footer/footer.scss";
+@import "page/footer/__links/footer__links.scss";
+@import "page/footer/__link/footer__link.scss";
+@import "page/footer/__copyright/footer__copyright.scss";
+@import "page/footer/__copyright-text/footer__copyright-text.scss";
+
+
+
+
