@@ -64,6 +64,13 @@ body {
   height: 3px;
   opacity: 1; }
 
+.console-button {
+  display: inline-block;
+  width: 70px; }
+  .console-button svg {
+    display: block;
+    width: 100%; }
+
 .footer {
   display: block;
   padding: 30px 0;

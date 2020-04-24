@@ -1,3 +1,9 @@
 .console-button{
+    display: inline-block;
+    width: 70px;
     
+    svg{
+        display: block;
+        width: 100%;
+    }
 }
