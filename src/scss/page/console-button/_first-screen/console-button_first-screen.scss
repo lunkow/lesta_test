@@ -1,0 +1,15 @@
+.console-button_first-screen{
+  width: 150px;
+  margin-top: 2em;
+  padding: 10px 5px;
+  box-shadow: 2px 2px 5px 0px rgba(39,39,39,1);
+  transition: all 0.2s ease-out;
+}
+
+.console-button_blue.console-button_first-screen:hover{
+  box-shadow: 2px 3px 7px 0px rgba(6,60,148,0.7);
+}
+
+.console-button_green.console-button_first-screen:hover{
+  box-shadow: 2px 2px 5px 0px rgba(85,168,39,0.7);
+}

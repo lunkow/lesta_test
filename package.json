@@ -15,5 +15,13 @@
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lunkow/lesta_test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lunkow/lesta_test/issues"
+  },
+  "homepage": "https://github.com/lunkow/lesta_test#readme"
 }

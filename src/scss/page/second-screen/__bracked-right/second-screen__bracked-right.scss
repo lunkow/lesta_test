@@ -1,0 +1,36 @@
+.second-screen__bracked-right{
+  position: absolute;
+  top: 50%;
+  right: calc(4px * -4);
+  display: block;
+  width: 4px;
+  height: calc(65% + 10px + 4px);
+
+  background-color: $cLightBlue;
+
+  transform: translateY(-50%);
+  transition: all 0.3s ease-out;
+  z-index: 1;
+
+  &:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 400%;
+    height: 4px;
+    background-color: $cLightBlue;
+  }
+
+  &:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: block;
+    width: 400%;
+    height: 4px;
+    background-color: $cLightBlue;
+  }
+}
