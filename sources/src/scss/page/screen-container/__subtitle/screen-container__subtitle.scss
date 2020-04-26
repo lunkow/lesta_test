@@ -1,0 +1,11 @@
+.screen-container__subtitle{
+  margin-top: 0.5em;
+  font-size: 1em;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 680px){
+  .screen-container__subtitle{
+    font-size: 0.8em;
+  }
+}

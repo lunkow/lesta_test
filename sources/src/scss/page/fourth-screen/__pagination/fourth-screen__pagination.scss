@@ -1,0 +1,10 @@
+.fourth-screen__pagination{
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(100% / 3);
+  transform: translateX(-50%);
+}

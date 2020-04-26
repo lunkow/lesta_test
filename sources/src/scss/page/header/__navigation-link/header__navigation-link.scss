@@ -1,0 +1,40 @@
+.header__navigation-link{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 45px;
+    margin-right: 30px;
+    color: $cWhite;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 0.7em;
+    transition: all 0.3s ease-in;
+
+    overflow: hidden;
+
+    &:before{
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        display: block;
+        width: 90%;
+        height: 0;
+        background-color: $cLightBlue;
+        opacity: 1;
+        transition: all 0.2s ease-out;
+    }
+
+    &:hover:before{
+        height: 3px;
+        opacity: 0.3;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .header__navigation-link{
+        margin-right: 15px;
+    }
+}

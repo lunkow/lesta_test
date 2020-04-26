@@ -1,0 +1,13 @@
+.second-screen{
+  width: 100%;
+  height: 100vh;
+  min-height: 400px;
+  background-color: $cGrayBlue;
+}
+
+@media screen and (max-width:640px){
+  .second-screen{
+    overflow: hidden;
+    overflow-y: auto;
+  }
+}

@@ -1,0 +1,12 @@
+.screen-container__header{
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 2em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 680px){
+  .screen-container__header{
+    font-size: 1.4em;
+  }
+}

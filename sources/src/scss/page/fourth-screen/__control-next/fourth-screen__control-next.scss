@@ -1,0 +1,25 @@
+.fourth-screen__control-next{
+  position: absolute;
+  top: 50%;
+  right: 3%;
+  display: block;
+  width: 25px;
+  opacity: 0.4;
+  transform: translateY(-50%);
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+
+  &:hover{
+    opacity: 1;
+  }
+
+  &:active{
+    opacity: 0.6;
+    transition: none;
+  }
+
+  svg{
+    display: block;
+    width: 100%;
+  }
+}

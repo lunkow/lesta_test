@@ -1,0 +1,14 @@
+.fourth-screen__counter{
+  display: block;
+  margin-top: calc(1em + 5px);
+
+  #currentSlide{
+    font-size: 1em;
+    font-weight: 700;
+  }
+
+  #slidesCount{
+    font-size: 0.8em;
+  }
+
+}

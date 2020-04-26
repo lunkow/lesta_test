@@ -1,0 +1,77 @@
+.second-screen__card{
+  position: relative;
+  display: block;
+  width: 32.5%;
+
+  overflow: hidden;
+
+  img{
+    display: block;
+    width: 100%;
+  }
+
+  &:hover{
+    cursor: pointer;
+
+    &:after{
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: $cDarkBlue;
+      opacity: 0.7;
+      transition: all 0.3s ease-out;
+    }
+
+    .second-screen__card-title{
+      transform: translateY(100%);
+    }
+
+    .second-screen__bracked-left{
+      left: calc( 9% / 2 - 4px );
+    }
+
+    .second-screen__bracked-right{
+      right: calc( 9% / 2 - 4px );
+    }
+
+    .second-screen__card-info{
+      opacity: 1;
+    }
+  }
+}
+
+@media screen and (max-height: 480px){
+  .second-screen__card{
+    min-height: 200px;
+  }
+}
+
+
+@media screen and (max-width: 960px){
+  .second-screen__card{
+    &:hover .second-screen__bracked-left{
+      left: 0;
+    }
+  }
+
+  .second-screen__card{
+    &:hover .second-screen__bracked-right{
+      right: 0;
+    }
+  }
+}
+@media screen and (max-width: 680px) {
+  .second-screen__card {
+    width: 100%;
+    height: 25vh;
+    min-height: unset;
+    margin-bottom: 5px;
+  }
+  .second-screen__card:last-child{
+    margin-bottom: 0;
+  }
+}

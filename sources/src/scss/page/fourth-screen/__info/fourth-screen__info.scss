@@ -1,0 +1,16 @@
+.fourth-screen__info{
+  position: absolute;
+  top: 50%;
+  left: calc(3% + 25px + 5%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transform: translateY(-50%);
+}
+
+@media screen and (max-width: 680px){
+  .fourth-screen__info{
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

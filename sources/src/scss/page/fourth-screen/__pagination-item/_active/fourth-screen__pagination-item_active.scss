@@ -1,0 +1,21 @@
+.fourth-screen__pagination-item_active{
+  position: relative;
+  background-color: $cBlue;
+
+  &:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 0;
+    height: 5px;
+    background-color: $cLightBlue;
+    animation: progress 15s linear;
+  }
+  
+  @keyframes progress {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+}

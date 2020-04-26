@@ -1,0 +1,78 @@
+@import "variables";
+// @import "fonts";
+
+@import "page/page.scss";
+
+
+@import "page/header/header.scss";
+@import "page/header/__navigation/header__navigation.scss";
+@import "page/header/__logo/header__logo.scss";
+@import "page/header/__navigation-link/header__navigation-link.scss";
+@import "page/header/__navigation-link/_active/header__navigation-link_active.scss";
+@import "page/header/__buttons/header__buttons";
+
+@import "page/console-button/console-button.scss";
+@import "page/console-button/_green/console-button_green";
+@import "page/console-button/_blue/console-button_blue";
+@import "page/console-button/_first-screen/console-button_first-screen";
+
+@import "page/popup/popup";
+@import "page/popup/__image/popup__image";
+@import "page/popup/__close/popup__close";
+
+@import "page/first-screen/first-screen";
+@import "page/first-screen/__figure/first-screen__figure";
+
+@import "page/screen-container/screen-container";
+@import "page/screen-container/__header/screen-container__header";
+@import "page/screen-container/__subtitle/screen-container__subtitle";
+@import "page/screen-container/_full-width/screen-container_full-width";
+
+@import "page/second-screen/second-screen";
+@import "page/second-screen/__cards-container/second-screen__cards-container";
+@import "page/second-screen/__card/second-screen__card";
+@import "page/second-screen/__card-title/second-screen__card-title";
+@import "page/second-screen/__card-info/second-screen__card-info";
+@import "page/second-screen/__bracked-left/second-screen__bracked-left";
+@import "page/second-screen/__bracked-right/second-screen__bracked-right";
+@import "page/second-screen/__card-name/second-screen__card-name";
+@import "page/second-screen/__card-text/second-screen__card-text";
+@import "page/second-screen/__card-platforms/second-screen__card-platforms";
+@import "page/second-screen/__card-platform/second-screen__card-platform";
+
+
+@import "page/third-screen/third-screen";
+@import "page/third-screen/__cards/third-screen__cards";
+@import "page/third-screen/__card/third-screen__card";
+@import "page/third-screen/__play/third-screen__play";
+
+
+@import "page/fourth-screen/fourth-screen";
+@import "page/fourth-screen/__slide/fourth-screen__slide";
+@import "page/fourth-screen/__info/fourth-screen__info";
+@import "page/fourth-screen/__title/fourth-screen__title";
+@import "page/fourth-screen/__text/fourth-screen__text";
+@import "page/fourth-screen/__counter/fourth-screen__counter";
+@import "page/fourth-screen/__bracket-left/fourth-screen__bracket-left";
+@import "page/fourth-screen/__bracket-right/fourth-screen__bracket-right";
+@import "page/fourth-screen/__content/fourth-screen__content";
+
+
+@import "page/fourth-screen/__pagination/fourth-screen__pagination";
+@import "page/fourth-screen/__pagination-item/fourth-screen__pagination-item";
+@import "page/fourth-screen/__pagination-item/_active/fourth-screen__pagination-item_active";
+
+@import "page/fourth-screen/__control-prev/fourth-screen__control-prev";
+@import "page/fourth-screen/__control-next/fourth-screen__control-next";
+
+
+
+@import "page/footer/footer.scss";
+@import "page/footer/__links/footer__links.scss";
+@import "page/footer/__link/footer__link.scss";
+@import "page/footer/__copyright/footer__copyright.scss";
+@import "page/footer/__copyright-text/footer__copyright-text.scss";
+
+
+
+

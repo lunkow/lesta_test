@@ -1,0 +1,14 @@
+.third-screen__cards{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 2em;
+}
+
+@media screen and (max-width: 680px){
+  .third-screen__cards{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,0 +1,31 @@
+.second-screen__card-text{
+  display: block;
+  width: 90%;
+  margin: 2em auto 0;
+  font-size: 0.8em;
+  line-height: 1.33;
+}
+
+@media screen and (max-height: 480px){
+  .second-screen__card-text{
+    max-height: 4em;
+    margin-top: 0;
+    overflow-y: auto;
+  }
+}
+
+
+@media screen and (max-width: 1280px){
+  .second-screen__card-text{
+    max-height: 100px;
+    overflow-y: auto;
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 960px){
+  .second-screen__card-text{
+    max-height: unset;
+    height: calc(100% - 2em - 30px);
+  }
+}

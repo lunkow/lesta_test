@@ -1,0 +1,12 @@
+.fourth-screen__pagination-item{
+  display: block;
+  //width: 80px;
+  width: 30%;
+  height: 5px;
+  background-color: $cTransparentWhite;
+  cursor: pointer;
+
+  &:nth-child(2){
+    margin: 0 3%;
+  }
+}

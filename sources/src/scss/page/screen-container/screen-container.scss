@@ -1,0 +1,18 @@
+.screen-container{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1280px;
+  height: 100vh;
+  min-height: 400px;
+  margin: 0 auto;
+  padding-top: calc(50px + 20px);
+}
+
+@media screen and (max-width: 1280px){
+  .screen-container{
+    width: 90%;
+  }
+}

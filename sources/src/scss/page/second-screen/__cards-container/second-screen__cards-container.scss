@@ -1,0 +1,13 @@
+.second-screen__cards-container{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 2em;
+}
+
+@media screen and (max-width: 680px){
+  .second-screen__cards-container{
+    flex-direction: column;
+    align-items: center;
+  }
+}
